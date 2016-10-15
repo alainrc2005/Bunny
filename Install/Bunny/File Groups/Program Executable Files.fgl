@@ -1,0 +1,11 @@
+[TopDir]
+file0=D:\Bunny\Visualizador.exe
+file1=D:\Bunny\Bunny.exe
+file2=D:\Bunny\Configurador.exe
+file3=D:\Bunny\Marigold.TTF
+file4=D:\Bunny\Bunny.cfg
+
+[General]
+Type=FILELIST
+Version=1.00.000
+

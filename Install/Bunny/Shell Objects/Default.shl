@@ -1,0 +1,82 @@
+[Shortcut0]
+Target=<TARGETDIR>\Bunny.exe
+Parameters=
+ShortcutKey=
+SeparateMemorySpace=No
+Run=Normal Window
+IconIndex=
+Replace=Yes
+FileGroup=
+StartIn=<TARGETDIR>
+IconFile=
+InternetShortcut=No
+DisplayText=Juego Instructivo Bunny
+Comments=
+
+[Folder4]
+Type=Common
+Comments=
+DisplayText=
+
+[Shortcut1]
+Target=<TARGETDIR>\Visualizador.exe
+Parameters=
+ShortcutKey=
+SeparateMemorySpace=No
+Run=Normal Window
+IconIndex=
+Replace=Yes
+FileGroup=
+StartIn=<TARGETDIR>
+IconFile=
+InternetShortcut=No
+DisplayText=Visualizador de Juegos de Bunny
+Comments=
+
+[Shortcut2]
+Target=<TARGETDIR>\Configurador.exe
+Parameters=
+ShortcutKey=
+SeparateMemorySpace=No
+Run=Normal Window
+IconIndex=
+Replace=Yes
+FileGroup=
+StartIn=<TARGETDIR>
+IconFile=
+InternetShortcut=No
+DisplayText=Configurador de Bunny
+Comments=
+
+[Shortcut3]
+Target=<TARGETDIR>\Documentacion\Index.htm
+Parameters=
+ShortcutKey=
+SeparateMemorySpace=No
+Run=Normal Window
+FileGroup=
+Replace=Yes
+IconIndex=
+StartIn=
+InternetShortcut=No
+IconFile=
+Comments=
+DisplayText=Documentación de Bunny
+
+[Data]
+Folder3=<FOLDER_STARTUP>
+Shortcut0=Folder4\Juego Bunny
+Folder4=Folder2\Bunny
+Shortcut1=Folder4\Visualizador de Juegos
+Group0=Main
+Shortcut2=Folder4\Configurador de Bunny
+Shortcut3=Folder4\Documentacion de Bunny
+Group1=Startup
+Folder0=<FOLDER_DESKTOP>
+Folder1=<FOLDER_STARTMENU>
+Folder2=<FOLDER_PROGRAMS>
+
+[Info]
+Type=ShellObject
+Version=1.00.000
+

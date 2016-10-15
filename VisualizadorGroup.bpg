@@ -1,0 +1,64 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = Visualizador.exe juego1.dll juego2.dll juego3.dll Juego4.dll \
+  juego5.dll Juego6.dll Juego7.dll Juego8.dll Juego9.dll Juego10.dll Juego11.dll \
+  Juego12.dll Juego13.dll Creditos.dll
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+Visualizador.exe: Visualizador.dpr
+  $(DCC)
+
+juego1.dll: juego1.dpr
+  $(DCC)
+
+juego2.dll: juego2.dpr
+  $(DCC)
+
+juego3.dll: juego3.dpr
+  $(DCC)
+
+Juego4.dll: Juego4.DPR
+  $(DCC)
+
+juego5.dll: juego5.dpr
+  $(DCC)
+
+Juego6.dll: Juego6.dpr
+  $(DCC)
+
+Juego7.dll: Juego7.dpr
+  $(DCC)
+
+Juego8.dll: Juego8.dpr
+  $(DCC)
+
+Juego9.dll: Juego9.dpr
+  $(DCC)
+
+Juego10.dll: Juego10.dpr
+  $(DCC)
+
+Juego11.dll: Juego11.dpr
+  $(DCC)
+
+Juego12.dll: Juego12.dpr
+  $(DCC)
+
+Juego13.dll: Juego13.dpr
+  $(DCC)
+
+Creditos.dll: Creditos.dpr
+  $(DCC)
+
+

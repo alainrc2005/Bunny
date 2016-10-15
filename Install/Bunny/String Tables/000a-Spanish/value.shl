@@ -1,0 +1,24 @@
+[Data]
+TITLE_MAIN=Juego Instructivo Bunny
+ERROR_COMPONENT=Component:
+COMPANY_NAME=CEJISoft
+COMPANY_NAME16=Company
+ERROR_FILEGROUP=File Group:
+ERROR_MOVEDATA=An error occurred during the move data process: %d
+PRODUCT_VERSION=2.0
+UNINST_KEY=Bunny
+TITLE_CAPTIONBAR=Instalador del Juego Bunny
+PRODUCT_NAME16=Product
+FOLDER_NAME=Bunny
+ERROR_FILE=File:
+ERROR_VGARESOLUTION=Este programa requiere resolución VGA o superior.
+PRODUCT_KEY=Bunny.exe
+UNINST_DISPLAY_NAME=Bunny
+ERROR_UNINSTSETUP=unInstaller setup failed to initialize.  You may not be able to uninstall this product.
+PRODUCT_NAME=Bunny
+
+[General]
+Language=000a
+Type=STRINGTABLESPECIFIC
+Version=1.00.000
+

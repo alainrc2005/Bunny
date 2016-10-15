@@ -1,0 +1,11 @@
+JUEGO INSTRUCTIVO  COMPUTARIZADO  "BUNNY"
+
+Juego instructivo recreativo concebido para niños  a 
+partir de los 4 años de edad, con el fin de desarrollar
+en ellos distintas habilidades, como la toma de decisiones 
+en situaciones con diferentes alternativas de solución, 
+agilidad mental; la consolidación de conceptos espaciales,
+tales como: delante, detrás, arriba, debajo, entre otros. 
+Permite  además su familiarización con las teclas 
+fundamentales de movimiento del cursor y el uso del
+"ratón", las teclas de funciones y otras.

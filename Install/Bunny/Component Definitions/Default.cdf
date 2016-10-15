@@ -1,0 +1,102 @@
+[Components]
+component0=Program Files
+component1=Librerias
+component2=Documentacion
+
+[TopComponents]
+component0=Program Files
+component1=Librerias
+component2=Documentacion
+
+[SetupType]
+setuptype0=Typical
+
+[Program Files]
+SELECTED=Yes
+FILENEED=STANDARD
+HTTPLOCATION=
+STATUS=Copiando archivos del juego...
+UNINSTALLABLE=Yes
+TARGET=<TARGETDIR>
+FTPLOCATION=
+VISIBLE=Yes
+DESCRIPTION=
+DISPLAYTEXT=
+IMAGE=
+DEFSELECTION=Yes
+filegroup0=Program DLLs
+COMMENT=
+INCLUDEINBUILD=Yes
+filegroup1=Program Executable Files
+INSTALLATION=ALWAYSOVERWRITE
+COMPRESSIFSEPARATE=No
+MISC=
+ENCRYPT=No
+DISK=ANYDISK
+TARGETDIRCDROM=
+PASSWORD=
+TARGETHIDDEN=General Application Destination
+
+[Info]
+Type=CompDef
+Version=1.00.000
+Name=
+
+[SetupTypeItem-Typical]
+Comment=
+item0=Program Files
+item1=Librerias
+item2=Documentacion
+Descrip=
+DisplayText=
+
+[Librerias]
+SELECTED=Yes
+FILENEED=STANDARD
+HTTPLOCATION=
+STATUS=Copiando bibliotecas multimedia...
+UNINSTALLABLE=Yes
+TARGET=<TARGETDIR>\Lib
+FTPLOCATION=
+VISIBLE=Yes
+DESCRIPTION=
+DISPLAYTEXT=
+IMAGE=
+DEFSELECTION=Yes
+filegroup0=Librerias
+COMMENT=
+INCLUDEINBUILD=Yes
+INSTALLATION=ALWAYSOVERWRITE
+COMPRESSIFSEPARATE=No
+MISC=
+ENCRYPT=No
+DISK=ANYDISK
+TARGETDIRCDROM=
+PASSWORD=
+TARGETHIDDEN=General Application Destination\Lib
+
+[Documentacion]
+SELECTED=Yes
+FILENEED=STANDARD
+HTTPLOCATION=
+STATUS=Copiando documentación...
+UNINSTALLABLE=Yes
+TARGET=<TARGETDIR>\Documentacion
+FTPLOCATION=
+VISIBLE=Yes
+DESCRIPTION=
+DISPLAYTEXT=
+IMAGE=
+DEFSELECTION=Yes
+filegroup0=Documentacion
+COMMENT=
+INCLUDEINBUILD=Yes
+INSTALLATION=ALWAYSOVERWRITE
+COMPRESSIFSEPARATE=No
+MISC=
+ENCRYPT=No
+DISK=ANYDISK
+TARGETDIRCDROM=
+PASSWORD=
+TARGETHIDDEN=General Application Destination\Documentacion
+
